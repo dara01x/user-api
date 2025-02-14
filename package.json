@@ -1,0 +1,33 @@
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "description": "User API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dara01x/user-api.git"
+  },
+  "author": "Dara Mustafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dara01x/user-api/issues"
+  },
+  "homepage": "https://github.com/dara01x/user-api#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
